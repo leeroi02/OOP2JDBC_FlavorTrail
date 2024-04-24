@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #FEF1CF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop2jdbc.Welcome">
+   <children>
+      <Label layoutX="323.0" layoutY="64.0" prefHeight="33.0" prefWidth="107.0" text="REGISTER" textFill="#022f70">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="116.0" text="Username:" />
+      <Label layoutX="228.0" layoutY="162.0" text="Password:" />
+      <Label layoutX="227.0" layoutY="225.0" text="Already have an account?" />
+      <TextField fx:id="usernameField" layoutX="323.0" layoutY="112.0" prefHeight="25.0" prefWidth="187.0" />
+      <Button layoutX="426.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#register" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #F17816;" text="Submit" />
+      <Button layoutX="426.0" layoutY="263.0" mnemonicParsing="false" onMouseClicked="#redirectToLogin" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #17D1A5;" text="Log In" />
+      <PasswordField fx:id="passwordField" layoutX="323.0" layoutY="158.0" prefHeight="25.0" prefWidth="187.0" />
+   </children>
+</Pane>
